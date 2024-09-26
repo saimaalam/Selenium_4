@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RelativeLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RelativeLocators.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +20,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2mcLtDz7sDmCf0nhPTnGzGJX7Wf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,13 +42,26 @@
     "TestNG.RelativeLocators.executor": "Run",
     "TestNG.RelativeLocators.testListOfElements.executor": "Run",
     "TestNG.RelativeLocators.testRelativeLocators.executor": "Run",
+    "TestNG.WindowManagement.testNewWindowTab.executor": "Coverage",
+    "TestNG.WindowManagement.testWorkingInBothWindowTabs.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "E:/selenium4/Selenium4/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.RelativeLocators.testListOfElements">
+  <component name="RunManager" selected="TestNG.WindowManagement.testWorkingInBothWindowTabs">
+    <configuration name="RelativeLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RelativeLocators" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RelativeLocators.testListOfElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,9 +86,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowManagement.testNewWindowTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WindowManagement" />
+      <option name="METHOD_NAME" value="testNewWindowTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowManagement.testWorkingInBothWindowTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WindowManagement" />
+      <option name="METHOD_NAME" value="testWorkingInBothWindowTabs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WindowManagement.testWorkingInBothWindowTabs" />
+        <item itemvalue="TestNG.WindowManagement.testNewWindowTab" />
         <item itemvalue="TestNG.RelativeLocators.testListOfElements" />
+        <item itemvalue="TestNG.RelativeLocators" />
         <item itemvalue="TestNG.RelativeLocators.testRelativeLocators" />
       </list>
     </recent_temporary>
@@ -116,5 +161,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Selenium_4$WindowManagement_testNewWindowTab.ic" NAME="WindowManagement.testNewWindowTab Coverage Results" MODIFIED="1727380158084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

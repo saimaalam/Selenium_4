@@ -30,7 +30,6 @@ public class RelativeLocators {
     @Test
     public void testRelativeLocators() {
         WebElement loginPanel = driver.findElement(By.xpath("//div[@class='orangehrm-login-error']//div"));
-        System.out.println("Success");
         WebElement username= driver.findElement(with(By.tagName("p")).near(loginPanel));
         WebElement password= driver.findElement(with(By.tagName("p")).near(username));
         System.out.println(username.getText() + " || " + password.getText());
@@ -38,7 +37,6 @@ public class RelativeLocators {
     @Test
     public void testListOfElements(){
         List<WebElement> allSocialMedia = driver.findElements(with(By.tagName("a")).near(driver.findElement(By.className("orangehrm-login-footer-sm"))));
-        System.out.println("Success");
         for (WebElement socialMedia : allSocialMedia) {
             System.out.println(socialMedia.getAttribute("href"));
         }
