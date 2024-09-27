@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ElementPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Screenshot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,8 @@
     "TestNG.RelativeLocators.testListOfElements.executor": "Run",
     "TestNG.RelativeLocators.testRelativeLocators.executor": "Run",
     "TestNG.Screenshot.executor": "Run",
+    "TestNG.Screenshot.takeFullPageScreenshot.executor": "Run",
+    "TestNG.Screenshot.takeWebElementPageSectionScreenshot.executor": "Run",
     "TestNG.Screenshot.takeWebelementScreenshot.executor": "Run",
     "TestNG.WindowManagement.testNewWindowTab.executor": "Coverage",
     "TestNG.WindowManagement.testWorkingInBothWindowTabs.executor": "Run",
@@ -53,24 +54,12 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Screenshot.takeWebelementScreenshot">
+  <component name="RunManager" selected="TestNG.Screenshot.takeFullPageScreenshot">
     <configuration name="ElementPosition.getPositionDimension" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ElementPosition" />
       <option name="METHOD_NAME" value="getPositionDimension" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementPosition.setUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElementPosition" />
-      <option name="METHOD_NAME" value="setUp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,6 +78,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Screenshot.takeFullPageScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Screenshot" />
+      <option name="METHOD_NAME" value="takeFullPageScreenshot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Screenshot.takeWebElementPageSectionScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Screenshot" />
+      <option name="METHOD_NAME" value="takeWebElementPageSectionScreenshot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Screenshot.takeWebelementScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,25 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowManagement.testWorkingInBothWindowTabs" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WindowManagement" />
-      <option name="METHOD_NAME" value="testWorkingInBothWindowTabs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Screenshot.takeFullPageScreenshot" />
+        <item itemvalue="TestNG.Screenshot.takeWebElementPageSectionScreenshot" />
         <item itemvalue="TestNG.Screenshot.takeWebelementScreenshot" />
         <item itemvalue="TestNG.Screenshot" />
         <item itemvalue="TestNG.ElementPosition.getPositionDimension" />
-        <item itemvalue="TestNG.ElementPosition.setUp" />
-        <item itemvalue="TestNG.WindowManagement.testWorkingInBothWindowTabs" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727383222538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <option name="closed" value="true" />
+      <created>1727421641902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727421641902</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
