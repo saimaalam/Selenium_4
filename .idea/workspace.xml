@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init" />
+    <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ElementPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Screenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2mcLtDz7sDmCf0nhPTnGzGJX7Wf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,9 +38,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ElementPosition.getPositionDimension.executor": "Run",
+    "TestNG.ElementPosition.setUp.executor": "Run",
     "TestNG.RelativeLocators.executor": "Run",
     "TestNG.RelativeLocators.testListOfElements.executor": "Run",
     "TestNG.RelativeLocators.testRelativeLocators.executor": "Run",
+    "TestNG.Screenshot.executor": "Run",
+    "TestNG.Screenshot.takeWebelementScreenshot.executor": "Run",
     "TestNG.WindowManagement.testNewWindowTab.executor": "Coverage",
     "TestNG.WindowManagement.testWorkingInBothWindowTabs.executor": "Run",
     "git-widget-placeholder": "master",
@@ -50,11 +53,35 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WindowManagement.testWorkingInBothWindowTabs">
-    <configuration name="RelativeLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Screenshot.takeWebelementScreenshot">
+    <configuration name="ElementPosition.getPositionDimension" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelativeLocators" />
+      <option name="MAIN_CLASS_NAME" value="ElementPosition" />
+      <option name="METHOD_NAME" value="getPositionDimension" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementPosition.setUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ElementPosition" />
+      <option name="METHOD_NAME" value="setUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Screenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Screenshot" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -62,35 +89,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeLocators.testListOfElements" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Screenshot.takeWebelementScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelativeLocators" />
-      <option name="METHOD_NAME" value="testListOfElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelativeLocators.testRelativeLocators" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelativeLocators" />
-      <option name="METHOD_NAME" value="testRelativeLocators" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowManagement.testNewWindowTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WindowManagement" />
-      <option name="METHOD_NAME" value="testNewWindowTab" />
+      <option name="MAIN_CLASS_NAME" value="Screenshot" />
+      <option name="METHOD_NAME" value="takeWebelementScreenshot" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Screenshot.takeWebelementScreenshot" />
+        <item itemvalue="TestNG.Screenshot" />
+        <item itemvalue="TestNG.ElementPosition.getPositionDimension" />
+        <item itemvalue="TestNG.ElementPosition.setUp" />
         <item itemvalue="TestNG.WindowManagement.testWorkingInBothWindowTabs" />
-        <item itemvalue="TestNG.WindowManagement.testNewWindowTab" />
-        <item itemvalue="TestNG.RelativeLocators.testListOfElements" />
-        <item itemvalue="TestNG.RelativeLocators" />
-        <item itemvalue="TestNG.RelativeLocators.testRelativeLocators" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727363565995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1727383179722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727383179722</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1727383222538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727383222538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +177,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ElementPosition.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
