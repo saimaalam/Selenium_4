@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConsoleLogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Screenshot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ConsoleLogs.viewBrowserConsoleLogs.executor": "Run",
     "TestNG.ElementPosition.getPositionDimension.executor": "Run",
     "TestNG.ElementPosition.setUp.executor": "Run",
     "TestNG.RelativeLocators.executor": "Run",
@@ -54,12 +55,12 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Screenshot.takeFullPageScreenshot">
-    <configuration name="ElementPosition.getPositionDimension" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ConsoleLogs.viewBrowserConsoleLogs">
+    <configuration name="ConsoleLogs.viewBrowserConsoleLogs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ElementPosition" />
-      <option name="METHOD_NAME" value="getPositionDimension" />
+      <option name="MAIN_CLASS_NAME" value="ConsoleLogs" />
+      <option name="METHOD_NAME" value="viewBrowserConsoleLogs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ConsoleLogs.viewBrowserConsoleLogs" />
         <item itemvalue="TestNG.Screenshot.takeFullPageScreenshot" />
         <item itemvalue="TestNG.Screenshot.takeWebElementPageSectionScreenshot" />
         <item itemvalue="TestNG.Screenshot.takeWebelementScreenshot" />
         <item itemvalue="TestNG.Screenshot" />
-        <item itemvalue="TestNG.ElementPosition.getPositionDimension" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727421641902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <option name="closed" value="true" />
+      <created>1727424946358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727424946358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,7 +198,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ElementPosition.java</url>
-          <line>10</line>
+          <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
