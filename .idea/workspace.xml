@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f4a4d-8851-4ef8-a681-959c0a92b6e1" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Geolocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetworkConditions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "TestNG.ElementPosition.setUp.executor": "Run",
     "TestNG.Geolocation.mockGeoLocation_DevTools.executor": "Run",
     "TestNG.Geolocation.mockGeoLocation_executeCDPCommand.executor": "Run",
+    "TestNG.NetworkConditions.enableSlowRexJonesII.executor": "Run",
     "TestNG.RelativeLocators.executor": "Run",
     "TestNG.RelativeLocators.testListOfElements.executor": "Run",
     "TestNG.RelativeLocators.testRelativeLocators.executor": "Run",
@@ -57,7 +58,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Geolocation.mockGeoLocation_DevTools">
+  <component name="RunManager" selected="TestNG.NetworkConditions.enableSlowRexJonesII">
     <configuration name="ConsoleLogs.viewBrowserConsoleLogs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,6 +95,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NetworkConditions.enableSlowRexJonesII" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NetworkConditions" />
+      <option name="METHOD_NAME" value="enableSlowRexJonesII" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Screenshot.takeFullPageScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium4" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,25 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Screenshot.takeWebElementPageSectionScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Screenshot" />
-      <option name="METHOD_NAME" value="takeWebElementPageSectionScreenshot" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NetworkConditions.enableSlowRexJonesII" />
         <item itemvalue="TestNG.Geolocation.mockGeoLocation_DevTools" />
         <item itemvalue="TestNG.Geolocation.mockGeoLocation_executeCDPCommand" />
         <item itemvalue="TestNG.ConsoleLogs.viewBrowserConsoleLogs" />
         <item itemvalue="TestNG.Screenshot.takeFullPageScreenshot" />
-        <item itemvalue="TestNG.Screenshot.takeWebElementPageSectionScreenshot" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727605335094</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init">
+      <option name="closed" value="true" />
+      <created>1727788483437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727788483447</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
